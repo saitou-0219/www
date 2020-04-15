@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    $(function(){
+  $('a[href^="#"]').click(function(){
+    var speed = 500;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+});
+    
+$(function(){
+	$(window).scroll(function (){
+		$('.fadein').each(function(){
+			var elemPos = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll > elemPos - windowHeight + 200){
+				$(this).addClass('scrollin');
+			}
+		});
+	});
+});
+    
+    //■page topボタン
+
+$(function(){
+var topBtn=$('#pageTop');
+topBtn.hide();
+
+ 
+
+//◇ボタンの表示設定
+$(window).scroll(function(){
+  if($(this).scrollTop()>80){
+
+    //---- 画面を80pxスクロールしたら、ボタンを表示する
+    topBtn.fadeIn();
+
+  }else{
+
+    //---- 画面が80pxより上なら、ボタンを表示しない
+    topBtn.fadeOut();
+
+  }
+});
+
+ 
+
+// ◇ボタンをクリックしたら、スクロールして上に戻る
+topBtn.click(function(){
+  $('body,html').animate({
+  scrollTop: 0},500);
+  return false;
+
+});
+
+
+});
+    
+</script>
+
+
+<html lang="ja">
+    <p id="pageTop"><a href="#">page top</a></p>
+    <title>4 ramen shops near Morioka that I like ramen+α</title>
+    <div class="header">
+  <div class="sides">
+  </div>
+  <div class="sides">  </div>
+  <div class="info">
+  <h4>RAMEN</h4><br><br>
+    <h1 class="title">
+4 ramen shops near Morioka that I like ramen+α</h1>
+    <div class="meta">　　　　　　　　　　　盛岡市近郊ラーメン屋さん4選+α<br><br>
+  By N.Saito on  2020
+    </div>
+  </div>
+</div>
+<section class="content">
+<p>
+I like ramen Because it's delicious. The reason is neither more or less. Do you like ramen? I wonder if there are people who dislike ramen. Do you like sweets as well? Of course I love myself. You like it too Ice cream after ramen. It is wonderful. Is it okay to have such a diet? Well, if you eat what you like and die, you're looking forward to it. Then please go to the main story!</p>
+
+</section>
+    <div class="scroll-fade">
+<head><meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <head>
+    <body background="https://www.pixeden.com/media/k2/galleries/93/002-subtle-light-pattern-background-texture.jpg"></body>
+    </head>
+    <div style="text-align:center;">
+  </div>
+       <br><br><br><br>
+<hr class="horizontal-line">
+<p class="horizontal-headline marks">はじめに</p>
+<h4>まず初めにこのサイトを見ていただきありがとうございます。
+    <br><br>今回このサイトではラーメンが好きな僕が<span><u>独断と偏見</u></span>で選んだお店5選になります。
+    <br><br>まだまだたくさん紹介したいお店はあるのですが今回は4店ということでご了承よろしくお願いします。
+    <br><br><br><br>それでは行きましょう♪</h4>
+    <br><br><br><br><br>
+    <hr class="horizontal-line">
+    <section class="fadein"><p class="horizontal-headline marks">目次</p></section>
+    <ol class="page-contents">
+ <li>
+<ol>
+ <li><a href="#i1">1. 極上拉麺専門店 穴場</a></li>
+    <li><a  class="anaba" href="#i1-1">・メニュー</a></li>
+    <li><a  class="anaba" href="#i1-2">・おすすめの一杯</a></li>
+    <li><a  class="anaba" href="#i1-3">・総評　場所詳細</a></li>
+ <li><a href="#i2">2. らぁめん サンド   </a></li>
+     <li><a  class="anaba" href="#i2-1">・メニュー</a></li>
+    <li><a  class="anaba" href="#i2-2">・おすすめの一杯</a></li>
+    <li><a  class="anaba" href="#i2-3">・総評　場所詳細</a></li>
+ <li><a href="#i3">3. 焼干しらｰめん 渡り家</a></li>
+      <li><a  class="anaba" href="#i3-1">・メニュー</a></li>
+    <li><a  class="anaba" href="#i3-2">・おすすめの一杯</a></li>
+    <li><a  class="anaba" href="#i3-3">・総評　場所詳細</a></li>
+　<li><a href="#i4">4. 麺屋十郎兵衛 盛岡南</a></li>
+         <li><a  class="anaba" href="#i4-1">・メニュー</a></li>
+    <li><a  class="anaba" href="#i4-2">・おすすめの一杯</a></li>
+    <li><a  class="anaba" href="#i4-3">・総評　場所詳細</a></li>
+  <br><li><a href="#i5">5. 番外編(ラーメン以外) </a></li>
+             <li><a  class="anaba" href="#i5-1">・ジェラート</a></li>
+    <li><a  class="anaba" href="#i5-2">・おすすめ・場所</a></li>
+  <br><li><a href="#i6">6. 終わりに </a></li>
+</ol>
+</li>
+</ol>   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="fade"><hr class="horizontal-line">
+    <section class="fadein"><p id="i1" class="horizontal-headline marks">1. 極上拉麺専門店 穴場</p></section>
+    <section class="fadein"><img src="https://tblg.k-img.com/restaurant/images/Rvw/86371/640x640_rect_86371076.jpg" width="500px" height="300px" border="4px" alt="穴場外観" align="left"></section><h3><br>お店の外観は黒を基調としシンプルな感じでかっこいいですね！<br><br>2年ぐらい前までは現在のよりも北のほうにお店がありその時より何倍も大きくなっていて驚いた記憶があります。<br><br>駐車場も10台ほど設けられており国道4号線沿いにあるので<span>アクセスもしやすい</span>です！</h3>
+    <br><br><br><br><br><br><br><br>
+    <section class="fadein"><h5 id="i1-1"><u>メニュー</u></h5></section>
+    <section class="fadein"><img src="https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/61142/fc710540fd425d3ef82c50a28cc3556b_a0f9c0258efab5b164c4ec509ad9c317.jpg?width=1600" width="500px" height="350px" border="4px" alt="穴場メニュー" align="left"></section><br><h3>次に穴場さんのメニューを紹介します。<br><br>穴場さんのメニューは<span>魚鶏豚骨</span>という他にはない?こだわりのスープを使って主に作られています。<br><br>お値段のほうは<span>700円ぐらいから1300円ぐらい</span>あたりの値段設定になっており他のお店と値段設定は同じくらいとなっています。<br><br>ましてあのクオリティなら自分は安いものだと思っています！</h3></div>
+    
+    <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i1-2"><u>おすすめの一杯</u></h5></section>
+    <section class="fadein"><img src="https://livedoor.blogimg.jp/menkatu/imgs/3/5/35b17949.jpg" width="500px" height="500px" border="4px" alt="穴場一杯" align="left"><h3><span><br><br>魚鶏豚骨の味噌</span>です！<br><br>トッピングはねぎ、<span>玉ねぎ</span>、チャーシュー、メンマ、海苔です。<br><br>玉ねぎの入っているラーメンは珍しいと思いました。(シャキシャキして美味しいです)<br><br>ラーメンの主役の一つチャーシューは柔らかくそしてとてもジューシーでスープに絡んでとても美味しいです。<br><br>そして肝心のスープ。<br><span>一言。美味い！</span>とても濃厚なのですが病みつきになるうまさがあり僕は毎回飲み干しちゃいます。<br><br>麺もとてもスープやほかの食材との相性も抜群です！<br><br><span>完成させられた一杯となっています！</span></h3></section>
+    <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i1-3"><u>総評・場所詳細</u></h5></section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12289.703571713933!2d141.1686739!3d39.6401287!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf87e55e979bd570!2sAnaba!5e0!3m2!1sja!2sjp!4v1586791267539!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"align="left"></iframe><br><br><br><h3>以上が穴場さんの紹介でした。<br><br>穴場さんはお店のある地域でも<span>屈指の人気</span>を誇っており毎度行くたびに混んでいます。<br><br>また、ひとつ前の店舗に通っていたころはスープのでき次第でお店がやっていたほど<span>スープへのこだわり</span>はとてもすごいものがあります。<br><br>食べても<span>絶対損はしない</span>のでぜひ足を運んでみてください！<br><br>国道4号線を南に下った矢巾方面に向かったところにあります。<br><br><a href= "https://gokujyo-anaba.amebaownd.com/" target="_blank" >極上拉麺専門店 穴場ホームページ</a></h3>
+    
+    
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    
+    <div class="fade"><hr class="horizontal-line">
+    <section class="fadein"><p id="i2" class="horizontal-headline marks">2. らぁめん サンド
+        </p></section>
+        <section class="fadein"><img src="https://ramen-muscle.com/wp-content/uploads/2018/12/img_0176-4.jpg" width="500px" height="300px" border="4px" alt="サンド外観" align="left"></section><h3><br>お店の外観はあまり大きくはないですが古き良き感じがします。<br><br>中の席もそれほど多くないため、まして人気のお店なので中で座って待つことができないときは<span>外で待つこともしばしば。</span><br><br>駐車場は自分が行ったときはわからなかったので向かいにあるスーパーの駐車場にとめさせていただきました。</h3>
+    <br><br><br><br><br><br><br><br>
+        <section class="fadein"><h5 id="i2-1"><u>メニュー</u></h5></section>
+        <section class="fadein"><img src="https://img.retty.me/img_repo/l/01/16866433.jpg" width="500px" height="350px" border="4px" alt="サンドメニュー" align="left"></section><br><h3>次にサンドさんのメニューを紹介します。<br><br>サンドさんのラーメンは秋田比内地鶏のダシを使ったりと濃厚というよりは<span>あっさり寄りのスープ</span>が多いです。<br><br>また値段も<span>お手頃の価格</span>が多くお財布にも優しいです。<br><br>ちなみにサイドメニューの<span>明太子とネギのぶっかけ丼</span>もかなりおいしいです！</h3>
+       <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i2-2"><u>おすすめの一杯</u></h5></section>
+    <section class="fadein"><img src="https://tblg.k-img.com/restaurant/images/Rvw/128660/640x640_rect_128660304.jpg" width="500px" height="500px" border="4px" alt="鶏そば" align="left"><h3><span><br><br>鶏そば</span>です！<br><br>チャーシューも普通のものではなく<span>豚と鶏</span>の2種類は入っています！<br><br>また、スープはさっぱりしてるのですがその中に旨味が凝縮しています。<br><br>麺は細麺となっています。<br><br>細麺が好みでない僕でもこのラーメンは<span>細麺とマッチ</span>していると思いました。<br><br>サンドさんの店主こだわりの一杯何杯でも食べられます!</h3></section>
+   <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i2-3"><u>総評・場所詳細</u></h5></section>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.455595689306!2d141.1045834153751!3d39.72941577945101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8576ef3a3f3c65%3A0xfb3f5f586644b302!2z44KJ44GC44KB44KTIOOCteODs-ODiQ!5e0!3m2!1sja!2sjp!4v1586933564764!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" align="left"></iframe><br><h3>以上がらぁめんサンドさんの紹介でした。<br><br>サンドさんは<span>盛岡</span>でもかなりの人気があります。<br><br>僕は平日に訪れたのですが<span>休日レベル</span>に混んでいました。<br><br><span>一調理3杯</span>までというこだわりもあるそうです。<br><br>並んででも食べる価値ありです！<br><br><a href= "https://tabelog.com/iwate/A0301/A030101/3006885/" target="_blank" >らぁめんサンド　食べログ</a></h3>
+        
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <div class="fade"><hr class="horizontal-line">
+    <section class="fadein"><p id="i2" class="horizontal-headline marks">3. 焼干しらｰめん渡り家
+        </p></section>
+        <section class="fadein"><img src="https://tblg.k-img.com/restaurant/images/Rvw/58109/640x640_rect_58109085.jpg" width="500px" height="300px" border="4px" alt="渡り家外観" align="left"></section><h3><br>お店の外観はあまり大きくはないですが旗がたっているのでわかりやすいです。<br><br>駐車場はお店の横に止める形になります。<br><br>中の席もそれほど多くはありませんのでたまに待ちます。</h3>
+    <br><br><br><br><br><br><br><br>
+        <section class="fadein"><h5 id="i3-1"><u>メニュー</u></h5></section>
+        <section class="fadein"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/harusakikai/20191201/20191201134312.jpg" width="500px" height="350px" border="4px" alt="渡り家メニュー" align="left"></section><br><h3>次に渡り家さんのメニューを紹介します。<br><br>渡り家さんのラーメンはお店の名前の通り<span>焼干し</span>を使ったものがメインとなっています。<br><br>特にメニューの上の２杯が人気なようです。<br><br>僕も毎回どっちにしようか迷うほどどちらもおいしいです！</h3>
+        <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i3-2"><u>おすすめの一杯</u></h5></section>
+    <section class="fadein"><img src="https://tblg.k-img.com/restaurant/images/Rvw/109142/109142292.jpg" width="500px" height="500px" border="4px" alt="おすすめ" align="left"><h3><span><br><br>濃厚焼干し味噌</span>です！<br><br>コク煮干しラーメンとどっちを皆さんにおすすめするか迷いに迷いました...<br><br>スープはその名の通り濃厚なのですが焼干しと味噌がマッチしていてとてもおいしいです。<br><br>また、チャーシューも大きいのが<span>2枚</span>も入っていて食べ応え抜群です！<br><br>全体を通して具材は多くはないのですが満足する一杯となっています！<br><br>またこの他に<span>焼干しスペシャル</span>という一杯もおすすめです。</h3></section>
+    <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i3-3"><u>総評・場所詳細</u></h5></section>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12293.767349541877!2d141.18106169180012!3d39.6172543730636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8584b3fcda69bd%3A0x72b5445d9d4e72e7!2z54S85bmy44GX44KJ44O844KB44KT5rih44KK5a62!5e0!3m2!1sja!2sjp!4v1586935384240!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" align="left"></iframe><br><h3>以上が渡り家さんの紹介でした。<br><br>渡り家さんは個人的に<span>一番好きなお店</span>となります。<br><br>もう何回もお邪魔させていただいています。<br><br>是非とも足を運んで食べてみてください！<br><br>場所が少し町を外れたところにあるのでお間違えの無いように..<br><br><a href= "https://tabelog.com/iwate/A0301/A030101/3002172/" target="_blank" >焼干しらｰめん 渡り家 　食べログ</a></h3>
+            
+            
+                    
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <div class="fade"><hr class="horizontal-line">
+    <section class="fadein"><p id="i4" class="horizontal-headline marks">4. 麺屋十郎兵衛盛岡南
+        </p></section>
+        <section class="fadein"><img src="https://tblg.k-img.com/restaurant/images/Rvw/125939/640x640_rect_125939567.jpg" width="500px" height="300px" border="4px" alt="煮干し外観" align="left"></section><h3><br>お店はとても横長な印象が強いですね。<br><br>駐車場はお店の裏のほうに<span>2台</span>とその近くにもう<span>4台</span>ほどあります。<br><br>中はカウンター席のみとなっており煮干しの箱が積んであります。</h3>
+    <br><br><br><br><br><br><br><br>
+        <section class="fadein"><h5 id="i4-1"><u>メニュー</u></h5></section>
+        <section class="fadein"><img src="https://blog-imgs-130.fc2.com/s/h/o/shovelgarage2/IMG_4500s.jpg" width="500px" height="350px" border="4px" alt="メニュー" align="left"></section><br><h3>次に十郎兵衛さんのメニューを紹介します。<br><br>十郎兵衛さんのラーメンは<span>煮干し</span>を使ったものがメインとなっています。<br><br><span>あっさりした煮干しラーメンからとても濃厚な煮干しラーメン</span>まで取り揃えられています。<br><br>本店は秋田の大曲にあるそうで、そこで修業した方が盛岡南店をやっています。</h3>
+        <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i4-2"><u>おすすめの一杯</u></h5></section>
+    <section class="fadein"><img src="https://tblg.k-img.com/restaurant/images/Rvw/123711/640x640_rect_123711419.jpg" width="500px" height="500px" border="4px" alt="煮干しラーメン" align="left"><h3><span><br><br>煮干拉麺濃厚</span>です！<br><br>先に書きますがこの一杯は<span>とても濃いので苦手な方は苦手</span>かもしれません。<br><br>スープはもう煮干し煮干ししていてとても香ばしいです。<br><br>チャーシューは、豚ではなく鶏肉？を使っていて柔らかくおいしいです。<br><br>他には玉ねぎきざみのりメンマとなかなか見ないものも多く乗っています。<br><br>麺は<span>超極太</span>できしめんに近いほどで噛み応えがあります！</h3></section>
+    <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i4-3"><u>総評・場所詳細</u></h5></section>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.7808969542484!2d141.15199751537298!3d39.654645279461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f859cd75e16ffff%3A0xebe2cfc0818f78da!2z6bq65bGL5Y2B6YOO5YW16KGbIOebm-WyoeWNl-W6lw!5e0!3m2!1sja!2sjp!4v1586961907455!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" align="left"></iframe><br><h3>以上が十郎兵衛さんの紹介でした。<br><br>十郎兵衛さんは<span>昨今空前の煮干しブーム</span>の中で<span>一番おすすめ</span>する煮干しラーメンです。<br><br>あっさりした煮干しラーメンも煮干しの濃くたっぷりなので濃いのが苦手な方でもおいしくいただけます。<br><br>朝早くからやっているので一度朝ラーメンを食べてから学校や職場にとやってみたいです。<br><br>是非とも足を運んで食べてみてください！<br><br><a href= "https://tabelog.com/iwate/A0301/A030101/3010076/" target="_blank" >麺屋十郎兵衛 盛岡南店  　食べログ</a></h3>
+            
+            
+            
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <div class="fade"><hr class="horizontal-line">
+    <section class="fadein"><p id="i5" class="horizontal-headline marks">5. 番外編</p></section>
+            <h2>所で皆さん<span>甘いもの</span>は好きですか？<br><br>
+            僕はラーメンも好きですが甘いものも同じくらい好きです。<br><br>今からこんな食生活で大丈夫なのだろうか...<br><br>そんな心配はさておいて僕がおすすめするデザートを紹介したいと思います。<br>今回は一店舗だけ。</h2>
+            
+            <br><br><br><br><br><br><br><br>
+        <section class="fadein"><h5 id="i5-1"><u>ジェラート</u></h5></section>
+        <section class="fadein"><img src="https://tblg.k-img.com/restaurant/images/Rvw/21631/21631393.jpg" width="500px" height="350px" border="4px" alt="ジェラート" align="left"></section><br><h3>サンフレッシュと都南に隣接する食堂にあります。<br><br>メインは産直なのですがここのジェラートはほんとにおいしいんです。<br><br>定番メニューから期間限定で季節の果物、わさびまで様々なものがジェラートになっています。<br><br>わさびは甘さもありツーンとするよくわからない気持ちになります。<br><br>ラインナップは時期によって変わるのもこのお店のいい所です。</h3>
+            
+            
+            <br><br><br><br><br><br><br><br><section class="fadein"><h5 id="i5-2"><u>おすすめ・場所</u></h5></section>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.5733057670645!2d141.13365911537306!3d39.6593164794603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f859d2debf5c03b%3A0x9da10a91606c0d05!2z77yI5qCq77yJSkHjgrfjg7Pjgrvjg6kg44K144Oz44OV44Os44OD44K344Ol6YO95Y2X!5e0!3m2!1sja!2sjp!4v1586963194678!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"align="left"></iframe><br><h3>おすすめは<span>きなこ</span>になります。これが本当に濃厚でおいしいです。<br><br>値段も<span>シングル250円ダブル350円</span>ととてもリーズナブルなのもいい点です。<br><br>近くにある産直で新鮮な野菜やフルーツを買った帰りに食べてもいいしこれだけを食べに来てもいいレベルです。<br><br>近くにたくさんの駐車場があり第二まであるので遠くからの方でも安心です。<br><br>是非一度足を運んで食べてみてください！<br><br><a href= "http://www.sinsere.co.jp/sun/" target="_blank" >サンフレッシュ都南　ホームページ</a></h3>
+            
+            <br><br><br><br><br><br><br><br>
+        <section class="fadein"><h5 id="i6"><u>おわりに</u></h5></section>
+    <h2>ひとまずここまで見ていただき<span>ありがとうございました！</span><br><br>皆さんに美味しさを伝えようと努力しましたが伝わったでしょうか？<br><br>このお店行ってみたいな、これ食べてみたいなと思っていただけると光栄です。<br><br>この他にもおいしいお店がたくさんあるのでまたいろんなお店に立ち寄って食べていこうと思います。<br><br><span>それでは皆さん良きラーメンライフを。</span>(食べすぎにはご注意を..)<br> <br> <br>書いた人<br>
+            N.Saito<br>岩手県在住<br>自分の家を拠点にラーメン店によく行く<br>当面の目標は行きたいラーメン屋に全部行くこと<br>好みは濃いラーメン・太麺</h2>
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+            
+            <footer>
+--- 2020   April  Writing  by  N.Saito ---
+</footer>
+    
+    
+            
+        </head></div></html>
+
+
+
+<STYLE TYPE="text/css">
+    
+body {
+ width: auto;
+ -webkit-text-size-adjust: 100%;
+}
+#main{
+ padding: 0 4%;
+}
+セレクタ {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.fade{
+
+  animation: fadeIn 0.2s ease 0.3s 1 normal;
+
+}
+
+@keyframes fadeIn { /*animetion-nameで設定した値を書く*/
+
+  0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+
+  100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+
+}
+    .page-contents{
+list-style:none; /* 冒頭の数字が不要なので消す */
+padding-left:5px; /* 左側の余白を5pxに調整 */
+}
+      
+/* もくじ */
+.page-contents{
+list-style:none; /* 冒頭の数字が不要なので消す */
+padding-left:5px; /* 左側の余白を5pxで調整する */
+}
+.page-contents a{
+text-decoration:none; /* 装飾(下線)を消す */
+}
+/* もくじ */
+.page-contents{
+list-style:none; /* 冒頭の数字が不要なので消す */
+padding-left:5px; /* 左側の余白を5pxで調整する */
+}
+.page-contents a{
+text-decoration:none; /* 装飾(下線)を消す */
+}
+    
+    h1 {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+}
+    
+.horizontal-headline {
+        width: 11em;
+        color: #6a6958;
+        font-size: 30px;
+        margin: -1em auto auto;
+        text-align: center;
+        text-shadow: 1px 1px 1px #f6f5e8;
+        background: /* 背景色を指定 */ ;
+}
+ 
+.horizontal-line {
+        border: 1px solid #aeac93;
+        box-shadow: 1px 1px 1px #f6f5e8;
+}
+ 
+.horizontal-headline:before,
+.horizontal-headline:after {
+        position: relative;
+        top: -3px;
+        color: #7b7a65;
+        font-size: 20px;
+        font-family: &amp;quot;Wingdings 2&amp;quot;;
+}
+ 
+.horizontal-headline:before {
+        content: &amp;quot;b&amp;quot;;
+        margin-right: 10px;
+}
+ 
+.horizontal-headline:after {
+        content: &amp;quot;a&amp;quot;;
+        margin-left: 10px;
+}
+    h4{font-size: 20px}
+    h4{text-align: center}
+    
+    span {
+    color: #db7093;
+}
+    li{font-size: 20px;
+       font-weight: bolder; 
+       color: beige;
+       text-align:center;
+       list-style: none;
+    }
+    
+    ul, ol {
+  background: #dadada;/*灰色に*/
+  border-radius :8px;
+  box-shadow :0px 0px 5px silver;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+    
+ 
+
+    h5{
+        font-size: 40px;
+        text-align: center;
+        color: burlywood;
+    }
+    
+ /* 画面外にいる状態 */
+.fadein {
+	opacity : 0.1;
+	transform : translate(0, 50px);
+	transition : all 500ms;
+	}
+
+/* 画面内に入った状態 */
+.fadein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+    
+    .anaba {  
+    font-size: 20px;
+    color:#f4a460;
+        padding-left: 1px
+}
+    
+    footer {
+  width: 100%;
+  height: 40px; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #cab64a;
+}
+.footer-text {
+  color: #fff;
+}
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+html,body{
+  margin:0;
+  height:120%;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+a{
+  text-decoration:none
+}
+.header{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:550px;
+  min-width:300px;
+  color:#eee;
+}
+.header:after{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0.12) 40%,rgba(27,32,48,1) 100%);
+}
+.header:before{
+  content:"";
+  width:100%;
+  height:200%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0); backface-visibility: hidden;
+  scale(1.0, 1.0);
+    transform: translateZ(0);
+  background:#1B2030 url(https://img.gifmagazine.net/gifmagazine/images/4171957/original.gif) 50% 0 no-repeat;
+  background-size:100%;
+  background-attachment:fixed;
+  animation: grow 360s  linear 10ms infinite;
+  transition:all 0.4s ease-in-out;
+  z-index:-2
+}
+.header a{
+  color:#eee
+}
+.menu{
+  display:block;
+  width:40px;
+  height:30px;
+  border:2px solid #fff;
+  border-radius:3px;
+  position:absolute;
+  right:20px;
+  top:20px;
+  text-decoration:none
+}
+.menu:after{
+  content:"";
+  display:block;
+  width:20px;
+  height:3px;
+  background:#fff;
+  position:absolute;
+  margin:0 auto;
+  top:5px;
+  left:0;
+  right:0;
+  box-shadow:0 8px, 0 16px
+}
+.logo{
+  border:2px solid #fff;
+  border-radius:3px;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  align-content:center;
+  margin:20px;
+    }
+    .title{
+        color: #d2b48c;
+    }
+    .header{
+        color:#87ceeb;
+    }
+    .meta{
+        color:#ff8c00;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+
+    
+    h3{
+        font-size: 17px;
+    }
+    
+    
+    footer {
+    background: #333333;
+    color: #ffffff;
+    height: 40px;
+}
+    
+    #pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+ 
+
+#pageTop i {
+  padding-top: 6px
+}
+
+ 
+
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 8px 0 0 8px;
+  border-radius: 30px;
+  width: 80px;
+  height: 80px;
+  background-color: #9FD6D2;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: 10px;
+    line-height: 70px;
+    line
+}
+
+ 
+
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+    </STYLE>
+    
+
+
+
+    
+
+
